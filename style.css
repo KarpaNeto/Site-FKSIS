@@ -118,7 +118,7 @@ header label{
     display: flex;
     align-items: center;
     justify-content: center;
-    background:url(./images/background-home.png) no-repeat;
+    background:url(background-home.png) no-repeat;
     background-size: cover;
     background-position: cover;
 }
@@ -190,7 +190,7 @@ header label{
 }
 
 .func{
-    background:url(../images/fun-bg-img.png) no-repeat;
+    background:url(fun-bg-img.png) no-repeat;
     background-size: cover;
     background-position: center;
     padding-bottom: 3rem;
