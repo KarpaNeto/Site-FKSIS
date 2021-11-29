@@ -12,19 +12,17 @@ header .logo span {
     color: #2aadce;
 }
 
-
 .home-sistemas{
     display: flex;
     align-items: center;
     justify-content: center;
-    background:url(bg-uniplus.png) no-repeat;
+    background: url('bg-plano-uniplus.png') no-repeat;
     background-size: cover;
     background-position: center;
-    
 }
 
 .home-sistemas .image img{
-    width:42vw;
+    width:46vw;
 }
     /*animation: float 4s linear infinite;
 }
@@ -68,7 +66,7 @@ header .logo span {
     flex: 1 1 40rem;
     background:#fff;
     border-radius: .5rem;
-    border:.1rem solid rgba(0,0,0,.2);
+    border:.1rem solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     margin:1.5rem;
     padding:3rem 2rem;
@@ -116,7 +114,7 @@ header .logo span {
     margin:1rem;
     padding:1rem;
     background:#fff;
-    border:.1rem solid rgba(0,0,0,.2);
+    border:.1rem solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     border-radius: .5rem;
     text-align: center;
@@ -159,7 +157,11 @@ header .logo span {
     color:tomato;
 }
 
-
+.contact form {
+    background: url('contact-img.png') no-repeat;
+    background-size: cover;
+    background-position:right;
+}
 
 @media (max-width:768px) {
     .home-sistemas {
