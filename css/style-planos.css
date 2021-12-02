@@ -1,29 +1,22 @@
 :root{
-    --purple:#dd5e5e;
-    --blue:#ce2a2a;
-    --gradient:linear-gradient(90deg, var(--purple), var(--blue));
-}
-
-
-header .logo {
-    color: #8733a3;
-}
-header .logo span {
-    color: #2aadce;
+    --orange:#dd5e5e;
+    --red:#ce2a2a;
+    --gradient:linear-gradient(90deg, var(--orange), var(--red));
 }
 
 .home-sistemas{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('bg-plano-uniplus.png') no-repeat;
+    background: url('/images/bg-plano-uniplus.png') no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .home-sistemas .image img{
-    width:46vw;
+    width:35vw;
 }
+
     /*animation: float 4s linear infinite;
 }
 
@@ -36,17 +29,18 @@ header .logo span {
     }
 }*/
 
-.home-sistemas .content {
-    margin-bottom: 10rem;
+.home-sistemas .content img {
+    width: 25vw;
+    margin-bottom: 7rem;
 }
 .home-sistemas .content h3{
-    font-size: 5.5rem;
+    font-size: 5rem;
     color:#333;
     text-transform: uppercase;
 }
 
 .home-sistemas .content h3 span{
-    color:var(--blue);
+    color:var(--orange);
     text-transform: uppercase;
 }
 
@@ -56,14 +50,18 @@ header .logo span {
     padding:1rem 0;
 }
 
-.features .box-container{
+
+
+/* ----- */
+.segmentos .box-container{
     display: flex;
+    align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.features .box-container .box{
-    flex: 1 1 40rem;
+.segmentos .box-container .box{
+    flex: 0 1 40rem;
     background:#fff;
     border-radius: .5rem;
     border:.1rem solid rgba(255, 255, 255, 0.2);
@@ -75,28 +73,21 @@ header .logo span {
     transition: .2s linear;
 }
 
-.heading{
-    text-align: center;
-    background:var(--gradient);
-    color:transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    font-size: 3.5rem;
-    text-transform: uppercase;
-    padding:1rem;
+.segmentos .box-container .box:hover {
+    transform: scale(1.1);
 }
 
-.features .box-container .box img{
+.segmentos .box-container .box img{
     height: 15rem;
 }
 
-.features .box-container .box h3{
+.segmentos .box-container .box h3{
     font-size: 2rem;
     color:#333;
     padding: 1rem;
 }
 
-.features .box-container .box p{
+.segmentos .box-container .box p{
     font-size: 1.5rem;
     color:#666;
     padding: 1rem 2rem;
@@ -123,18 +114,18 @@ header .logo span {
 
 .pricing .box-container .box:nth-child(0),
 .pricing .box-container .box:hover{
-    border:.2rem solid var(--blue);
+    border:.2rem solid var(--red);
 }
 
 .pricing .box-container .box .title{
-    color:var(--purple);
+    color:var(--red);
     font-size: 2.5rem;
     padding-top: 1rem;
 }
 
 .pricing .box-container .box .price{
     font-size: 2rem;
-    color:var(--blue);
+    color:var(--orange);
     padding:1rem 0;
 }
 
@@ -158,9 +149,17 @@ header .logo span {
 }
 
 .contact form {
-    background: url('contact-img.png') no-repeat;
+    background: url('/images/contact-img.png') no-repeat;
     background-size: cover;
     background-position:right;
+}
+
+.newsletter{
+    background: linear-gradient(90deg, var(--orange), var(--red));
+}
+
+.footer{
+    background: linear-gradient(90deg, var(--orange), var(--red));
 }
 
 @media (max-width:768px) {
