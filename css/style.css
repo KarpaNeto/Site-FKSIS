@@ -156,12 +156,6 @@ header label{
     padding:1rem 0;
 }
 
-.sistemas{
-    background:url(/images/fun-bg-img.png) no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
 .sistemas .column1{
     background-color: #fff;
     border-radius: .5rem;
@@ -172,43 +166,9 @@ header label{
     justify-content: center;
     flex-wrap: wrap;
 }
-.features .box-container{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.features .box-container .box{
-    flex: 1 1 40rem;
-    background:#fff;
-    border-radius: .5rem;
-    border:.1rem solid rgba(255, 255, 255, 0.2);
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
-    margin:1.5rem;
-    padding:3rem 2rem;
-    border-radius: 1rem;
-    text-align: center;
-    transition: .2s linear;
-}
-
-.features .box-container .box img{
-    height: 15rem;
-}
-
-.features .box-container .box h3{
-    font-size: 2rem;
-    color:#333;
-    padding: 1rem;
-}
-
-.features .box-container .box p{
-    font-size: 1.5rem;
-    color:#666;
-    padding: 1rem 2rem;
-}
 
 .sistemas .column1 .image{
-    flex:1 1 40rem;
+    flex:1 1 20rem;
 }
 
 .sistemas .column1 .image img{
@@ -216,23 +176,21 @@ header label{
 }
 
 .sistemas .column1 .content{
-    flex:1 1 40rem;
+    flex:1 1 20rem;
+    padding: 4rem;
 }
 
 .sistemas .column1 .content h3{
-    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-size: 4rem;
     color:#666;
+    text-transform: uppercase;
 }
 
 .sistemas .column1 .content p{
     font-size: 1.5rem;
     color:#666;
-    padding:1rem 0;
-}
-
-.sistemas .column1 .content .buttons a:last-child{
-    margin-left: 2rem;
-    margin-bottom: 3rem;
+    padding:1rem 0rem;
 }
 
 .sistemas .column2{
@@ -249,7 +207,7 @@ header label{
 }
 
 .sistemas .column2 .image{
-    flex:1 1 40rem;
+    flex:1 1 20rem;
 }
 
 .sistemas .column2 .image img{
@@ -257,31 +215,21 @@ header label{
 }
 
 .sistemas .column2 .content{
-    flex:1 1 40rem;
-}
-
-.sistemas .column2 .content h2{
-    margin-bottom: 5rem;
-    font-size: 5rem;
-    color: #EB4646;
+    flex:1 1 20rem;
+    padding: 4rem;
 }
 
 .sistemas .column2 .content h3{
-    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-size: 4rem;
     color:#666;
+    text-transform: uppercase;
 }
 
 .sistemas .column2 .content p{
     font-size: 1.5rem;
     color:#666;
-    padding:1rem 0;
-}
-
-.sistemas .column1 .content .buttons a:last-child{
-    margin-left: 2rem;
-}
-.sistemas .column2 .content .buttons a:last-child{
-    margin-left: 2rem;
+    padding:1rem 0rem;
 }
 
 
@@ -350,6 +298,7 @@ header label{
 }
 
 .clientes .box-container .box{
+    flex: 0 1 50rem;
     background:#fff;
     margin:1rem;
     padding:1em;
@@ -357,7 +306,6 @@ header label{
     position: relative;
     border:.1rem solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
-    flex:0 1 30rem;
     border-radius: .5rem;
 }
 
@@ -399,10 +347,12 @@ header label{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .about .box-container .box{
-    flex: 0 1 40rem;
+    
+   
     background:#fff;
     border-radius: .5rem;
     border: .1rem solid rgba(255, 255, 255, 0.2);
