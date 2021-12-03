@@ -23,6 +23,7 @@
 html{
     font-size: 62.5%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -37,7 +38,7 @@ section{
     
 }
 
-.btn{
+.btn {
     display: inline-block;
     margin-top: 1rem;
     padding:.8rem 3rem;
