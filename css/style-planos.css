@@ -56,6 +56,10 @@
     flex-wrap: wrap;
 }
 
+.features .box-container iframe {
+    margin-top: 5rem;
+}
+
 .features .box-container .box{
     flex: 1 1 40rem;
     background:#fff;
@@ -210,6 +214,10 @@
     
     .home-sistemas .content p{
         font-size: 1.5rem;
+    }
+    .features .box-container iframe {
+        width: 480px;
+        height: 480px;
     }
     
 
