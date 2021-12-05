@@ -103,6 +103,7 @@
     .topnav a.icon {
       float: right;
       display: block;
+      color: #2aadce;
     }
   }
   
@@ -129,6 +130,7 @@
       display: block;
       width: 100%;
       text-align: left;
+      color: #8733a3;
     }
   }
   
