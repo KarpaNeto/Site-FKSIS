@@ -117,6 +117,7 @@
       position: absolute;
       right: 0;
       top: 0;
+      color: #8733a3;
       
     }
     .topnav.responsive a {
@@ -130,7 +131,6 @@
       display: block;
       width: 100%;
       text-align: left;
-      color: #8733a3;
     }
   }
   
