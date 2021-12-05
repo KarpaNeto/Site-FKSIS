@@ -455,17 +455,6 @@ section{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* media queries  */
 
 @media (max-width:1200px){
@@ -488,8 +477,6 @@ section{
 
 @media (max-width:768px){
     
-  
-
     .home {
         flex-flow: column-reverse;
     }
@@ -509,9 +496,13 @@ section{
     .sistemas{
         background-position: right;
     }
+    
+    .newsletter {
+        padding: 1rem;
+    }
 
-    .newsletter p{
-        width:auto;
+    .newsletter iframe{
+        width:100%;
     }
 
 }
