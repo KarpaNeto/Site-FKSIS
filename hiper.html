@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/style-planos.css">
+    <script src="header.js"></script>
 
     <title>Sistema Hiper</title>
     <style>
@@ -17,43 +19,49 @@
             --orange: #8A6DB4 !important;
         }
     </style>
+
 </head>
 
 <body>
     <header>
-
-        <a href="index.html" class="logo"><img src="/images/logo-img.jpeg" alt=""><span>FK</span>SIS - Sistemas de
-            Gestão</a>
-
-        <input type="checkbox" id="menu-bar">
-        <label for="menu-bar" class="fas fa-bars"></label>
-
-        <nav class="navbar">
-            <a href="index.html">Home</a>
-            <a href="index.html">Sistemas</a>
-            <a href="#features">Benefícios</a>
-            <a href="#segmentos">Segmentos</a>
-            <a href="#pricing">Planos</a>
-            <a href="#contato">Contato</a>
-        </nav>
-
+        <div class="topnav" id="myTopnav">
+            <a href="#" class="logo"><img src="/images/logo-img.jpeg" alt=""><span>FK</span>SIS - Sistemas de Gestão</a>
+            <div class="nav-container">
+                <a href="index.html">Home</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Sistemas
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="hiper.html">Hiper</a>
+                        <a href="uniplus.html">Uniplus</a>
+                       
+                    </div>
+                </div>
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
     </header>
-
     <!-- header section ends -->
 
     <!-- home section starts  -->
 
     <section class="home-sistemas" id="home-sistemas">
         <div class="content">
-            <img src="/images/hiper_marca_original_claro_horizontal_01_hiper.png" class="animate__animated animate__slideInDown" alt="">
+            <img src="/images/hiper_marca_original_claro_horizontal_01_hiper.png"
+                class="animate__animated animate__slideInDown" alt="">
             <h3 class="animate__animated animate__lightSpeedInLeft">Mais gestão ao <span>seu Negócio</span></h3>
-            <p class="animate__animated animate__lightSpeedInLeft">O Hiper foi desenvolvido para auxiliar o micro e pequeno varejista a gerir melhor o seu negócio. De
+            <p class="animate__animated animate__lightSpeedInLeft">O Hiper foi desenvolvido para auxiliar o micro e
+                pequeno varejista a gerir melhor o seu negócio. De
                 mercados à lojas de roupas, o sistema é indicado para mais de 30 segmentos.</p>
             <a href="#pricing" class="btn animate__animated animate__lightSpeedInLeft">Conheça Nossos Planos</a>
         </div>
 
         <div class="image animate__animated animate__slideInDown">
-            <img src="/images/hiper-home.png"  alt="">
+            <img src="/images/hiper-home.png" alt="">
         </div>
 
     </section>
@@ -297,6 +305,7 @@
         </div>
         <h1 class="credit"> &copy; copyright @ 2021 by Pedro Karpinski Neto </h1>
     </div>
+
 </body>
 
 </html>
