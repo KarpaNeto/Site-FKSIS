@@ -204,8 +204,9 @@
         flex-flow: column-reverse;
     }
     
-    .home-sistemas .image img{
+    .home-sistemas .content img{
         width:100%;
+        margin: 0;
     }
     
     .home-sistemas .content h3{
@@ -214,6 +215,10 @@
     
     .home-sistemas .content p{
         font-size: 1.5rem;
+    }
+
+    .home-sistemas .image img{
+        width: 25rem;
     }
     .features .box-container iframe {
         width: 480px;
