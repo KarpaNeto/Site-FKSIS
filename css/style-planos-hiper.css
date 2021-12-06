@@ -204,8 +204,8 @@
         width: 25rem;
     }
     .features .box-container iframe {
-        width: 480px;
-        height: 480px;
+        width: 100vw;
+        height: 40rem;
     }
     
 
