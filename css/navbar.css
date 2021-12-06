@@ -1,7 +1,7 @@
 /* Add a black background color to the top navigation */
 .topnav {
     position:fixed;
-    width:100%;
+    width:100vw;
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
@@ -9,6 +9,7 @@
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     padding: 0 5rem 0 5rem;
     z-index: 1;
+    transition: all .3s linear;
 }
 
 
@@ -16,6 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 .topnav .logo img {
     width: 6rem;
@@ -37,7 +39,7 @@
 }
 
 /* Hide the link that should open and close the topnav on small screens */
-.topnav .icon {
+.topnav a.icon {
     display: none;
 }
 
@@ -65,7 +67,7 @@
     display: none;
     position: absolute;
     top: 6rem;
-    background-color: #f9f9f9;
+    background-color: #fafafa;
     min-width: 14rem;
     box-shadow: 0px 8px 16px 0px rgba(197, 197, 197, 0.2);
     
@@ -107,7 +109,6 @@
     .topnav .logo {
         position: absolute;
         padding: 0;
-        
     }
     .topnav .nav-container .nav-home {
         display: none;
@@ -130,7 +131,10 @@
     .topnav.responsive .nav-container .nav-home {
         display: block;
     }
-    .topnav.responsive {position: fixed;}
+    .topnav.responsive {
+        position: fixed;
+        display: block;
+    }
     .topnav.responsive a.icon {
       position: absolute;
       right: 0;

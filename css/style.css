@@ -65,8 +65,8 @@ section{
     padding:1rem;
 }
 
-.whatsapp-link {
-    position: fixed !important;
+/*.whatsapp-link {
+    position: fixed;
     width: 6rem;
     height: 6rem;
     bottom: 4rem;
@@ -82,7 +82,7 @@ section{
     margin-top: .4rem;
     
 }
-
+*/
 
 
 .home{
@@ -472,7 +472,7 @@ section{
 
 /* media queries  */
 
-@media (max-width:1200px){
+@media screen and (max-width:1200px){
     
     html{
         font-size: 55%;
@@ -480,7 +480,7 @@ section{
 
 }
 
-@media (max-width:991px){
+@media screen and (max-width:991px){
     
     section{
         padding:0 3%;
@@ -490,7 +490,7 @@ section{
 
 }
 
-@media (max-width:768px){
+@media screen and (max-width:768px){
     
     .home {
         flex-flow: column-reverse;
@@ -522,7 +522,7 @@ section{
 
 }
 
-@media (max-width:450px){
+@media screen and (max-width:450px){
     
     html{
         font-size: 50%;
