@@ -28,6 +28,7 @@
 }
 
 .home-sistemas .content h3 span{
+    color: var(--roxo-hiper);
     text-transform: uppercase;
 }
 
@@ -186,6 +187,7 @@
 @media (max-width:768px) {
     .home-sistemas {
         flex-flow: column-reverse;
+        align-content: center;
     }
     
     .home-sistemas .content img{
@@ -200,10 +202,11 @@
     .home-sistemas .content p{
         font-size: 1.5rem;
     }
-
-    .home-sistemas .image img{
-        width: 25rem;
+    
+    .home-sistemas .image img {
+        width: 26rem;
     }
+    
     .features .box-container iframe {
         width: 100vw;
         height: 40rem;

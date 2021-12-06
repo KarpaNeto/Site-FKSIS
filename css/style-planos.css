@@ -37,6 +37,7 @@
 }
 
 .home-sistemas .content h3 span{
+    color: var(--laranja);
     text-transform: uppercase;
 }
 
