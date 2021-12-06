@@ -12,7 +12,6 @@
     box-sizing: border-box;
     text-decoration: none;
     outline: none; border:none;
-    
 }
 
 *::selection{
@@ -66,7 +65,23 @@ section{
     padding:1rem;
 }
 
+.whatsapp-link {
+    position: fixed !important;
+    width: 6rem;
+    height: 6rem;
+    bottom: 4rem;
+    right: 4rem;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 5rem;
+    text-align: center;
+}
 
+.fa-whatsapp {
+    font-size: 5rem;
+    margin-top: .4rem;
+    
+}
 
 
 

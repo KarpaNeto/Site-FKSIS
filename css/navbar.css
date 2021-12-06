@@ -31,6 +31,11 @@
     font-size: 17px;
 }
 
+.topnav #dropdown-main-item {
+    padding: 0;
+    margin: 0;
+}
+
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
     display: none;
