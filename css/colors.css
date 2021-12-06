@@ -1,0 +1,38 @@
+:root {
+    --roxo-hiper: #6F50A1;
+    --roxo-claro-hiper: #8A6DB4;
+    --gradient1: linear-gradient(90deg, var(--roxo-claro-hiper), var(--roxo-hiper));
+    --gradient1-1: linear-gradient(90deg, var(--roxo-hiper), var(--roxo-claro-hiper));
+
+    --roxo: #8733a3;
+    --azul: #2aadce;
+    --gradient2: linear-gradient(90deg, var(--azul), var(--roxo));
+
+    --laranja:#dd5e5e;
+    --vermelho:#ce2a2a;
+    --gradient3:linear-gradient(90deg, var(--laranja), var(--vermelho));
+    --gradient3-3:linear-gradient(90deg, var(--vermelho), var(--laranja));
+}
+.gradient3 {
+    color: var(--gradient3);
+}
+
+.gradient2 {
+    color: var(--gradient2);
+}
+
+.gradient1 {
+    color: var(--gradient1);
+}
+
+.roxo-claro-hiper {
+    color: var(--roxo-claro-hiper);
+}
+
+.bg-roxo-claro-hiper {
+    background: var(--roxo-claro-hiper);
+}
+
+.hover-roxo-hiper {
+    color: var(--roxo-hiper);
+}

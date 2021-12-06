@@ -1,18 +1,9 @@
 @import url(colors.css);
 .btn {
-    background: var(--gradient3);
+    background: var(--gradient1);
 }
 
-.heading{
-    text-align: center;
-    background:var(--gradient3);
-    color:transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    font-size: 3.5rem;
-    text-transform: uppercase;
-    padding:1rem;
-}
+
 .home-sistemas{
     display: flex;
     align-items: center;
@@ -147,18 +138,18 @@
 
 .pricing .box-container .box:nth-child(0),
 .pricing .box-container .box:hover{
-    border:.1rem solid var(--vermelho);
+    border:.1rem solid var(--roxo-hiper);
 }
 
 .pricing .box-container .box .title{
-    color:var(--vermelho);
+    color:var(--roxo-hiper);
     font-size: 2.5rem;
     padding-top: 1rem;
 }
 
 .pricing .box-container .box .price{
     font-size: 2rem;
-    color:var(--laranja);
+    color:var(--roxo-claro-hiper);
     padding:1rem 0;
 }
 
@@ -186,16 +177,9 @@
     background-size: cover;
     background-position:right;
 }
-.newsletter{
-    background: var(--gradient3);
-}
-
-.newsletter form input[type="submit"]:hover {
-    color: var(--laranja);
-}
 
 .footer{
-    background: var(--gradient3);
+    background: var(--gradient1);
 }
 
 @media (max-width:768px) {
@@ -226,4 +210,3 @@
     
 
 }
-

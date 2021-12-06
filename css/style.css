@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+@import url('colors.css');
 
-:root{
-    --purple:#8733a3;
-    --blue:#2aadce;
-    --gradient:linear-gradient(90deg, var(--purple), var(--blue));
-}
 
 *{
     font-family: 'Poppins', sans-serif;
@@ -15,8 +11,8 @@
 }
 
 *::selection{
-    background:var(--blue);
-    color:#fff;
+    background:var(--azul);
+    color: var(--vermelho);
 }
 
 html{
@@ -34,7 +30,7 @@ section{
     padding:0 9%;
     padding-top: 9rem;
     padding-bottom: 2rem;
-    
+    overflow: hidden;
 }
 
 .btn {
@@ -42,7 +38,7 @@ section{
     margin-top: 1rem;
     padding:.8rem 3rem;
     border-radius: 5rem;
-    background:var(--gradient);
+    background:var(--gradient2);
     font-size: 1.7rem;
     color:#fff;
     cursor: pointer;
@@ -50,13 +46,13 @@ section{
     transition: all .3s linear;
 }
 
-.btn:hover{
+.btn:hover {
     transform: scale(1.1);
 }
 
-.heading{
+.heading {
     text-align: center;
-    background:var(--gradient);
+    background:var(--gradient2);
     color:transparent;
     -webkit-background-clip: text;
     background-clip: text;
@@ -64,26 +60,6 @@ section{
     text-transform: uppercase;
     padding:1rem;
 }
-
-/*.whatsapp-link {
-    position: fixed;
-    width: 6rem;
-    height: 6rem;
-    bottom: 4rem;
-    right: 4rem;
-    background-color: #25d366;
-    color: #fff;
-    border-radius: 5rem;
-    text-align: center;
-}
-
-.fa-whatsapp {
-    font-size: 5rem;
-    margin-top: .4rem;
-    
-}
-*/
-
 
 .home{
     display: flex;
@@ -115,7 +91,7 @@ section{
 }
 
 .home .content h3 span{
-    color:var(--blue);
+    color:var(--azul);
     text-transform: uppercase;
 }
 
@@ -184,7 +160,7 @@ section{
 .newsletter{
     text-align: center;
     padding:5rem 1rem;
-    background: linear-gradient(90deg, var(--purple), var(--blue));
+    background: var(--gradient2);
 }
 
 .newsletter h3{
@@ -234,7 +210,7 @@ section{
 }
 
 .newsletter form input[type="submit"]:hover{
-    color:var(--blue);
+    color:var(--azul);
 }
 
 
@@ -261,7 +237,7 @@ section{
     position: absolute;
     top:1rem; right:2rem;
     font-size: 8rem;
-    color:var(--blue);
+    color:var(--azul);
     opacity: .3;
 }
 
@@ -274,12 +250,12 @@ section{
 }
 
 .clientes .box-container .box .user h3{
-    color:var(--blue);
+    color:var(--azul);
     font-size: 2rem;
 }
 
 .clientes .box-container .box .user .stars i{
-    color:var(--purple);
+    color:var(--roxo);
     font-size: 1.5rem;
     padding:1rem 0;
 }
@@ -395,12 +371,12 @@ section{
 .contact form .inputBox textarea:valid ~ label{
     top:-.5rem;
     font-size: 1.5rem;
-    color:var(--blue);
+    color:var(--azul);
 }
 
 .footer{
     padding-top: 3rem;
-    background: linear-gradient(90deg, var(--purple), var(--blue));
+    background: var(--gradient2);
 }
 
 .footer .box-container{
@@ -420,7 +396,7 @@ section{
     padding:1rem 0;
     color:#fff;
     text-decoration: underline;
-    text-underline-offset: 1rem;
+    
 }
 
 .footer .box-container .box p{
@@ -450,7 +426,7 @@ section{
     margin-right: 1rem;
     border-radius: 50%;
     background:#fff;
-    color:var(--blue);
+    color:var(--azul);
     font-size: 1.5rem;
     height:4.5rem;
     width:4.5rem;
