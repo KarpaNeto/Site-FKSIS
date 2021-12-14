@@ -7,9 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/style-planos.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/navbar.css">
+    <link rel="stylesheet" href="./assets/css/style-planos.css">
+    <link rel="stylesheet" href="./assets/css/whats-btn.css">
     <script src="header.js"></script>
 
     <style>
@@ -23,28 +24,28 @@
 <body>
     <header>
         <div class="topnav" id="myTopnav">
-            <a href="index.html" class="logo"><img src="/images/logo-img.jpeg" alt=""><span>FK</span>SIS - Sistemas de
+            <a href="index.html" class="logo"><img src="./assets/images/logo-img.jpeg" alt=""><span>FK</span>SIS - Sistemas de
                 Gestão</a>
             <div class="nav-container">
                 <a href="index.html" class="nav-home">Home</a>
 
                 <div class="dropdown">
                     <button class="dropbtn"><a id="dropdown-main-item" href="#segmentos">Soluções
-                        <i class="fa fa-caret-down"></i>
+                            <i class="fa fa-caret-down"></i>
                     </button>
-                </a>
+                    </a>
                     <div class="dropdown-content">
                         <a href="uniplus-store.html">Lojas de Varejo e Atacado</a>
                         <a href="uniplus-market.html">Mercado e Supermercados</a>
                         <a href="uniplus-service.html">Prestadores de Serviços</a>
                         <a href="hiper.html">Micro e Pequenas Empresas</a>
-                  
+
                     </div>
                 </div>
                 <div class="dropdown">
-                    <button class="dropbtn"><a id="dropdown-main-item" href="#sistemas" >Produtos
-                        <i class="fa fa-caret-down"></i>
-                    </a>
+                    <button class="dropbtn"><a id="dropdown-main-item" href="#sistemas">Produtos
+                            <i class="fa fa-caret-down"></i>
+                        </a>
                     </button>
                     <div class="dropdown-content">
                         <a href="hiper.html">Hiper</a>
@@ -58,11 +59,14 @@
         </div>
     </header>
 
-
+    <div class="wts-btn">
+        <a href="https://wa.me/5548999916394?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Sistema%20FKSIS!"
+            target="_blank"><i class="fab fa-whatsapp"></i></a>
+    </div>
     <section class="home-sistemas" id="home-sistemas">
 
         <div class="content  animate__animated animate__lightSpeedInLeft">
-            <img src="/images/logo-uniplus.png" alt="">
+            <img src="./assets/images/logo-uniplus.png" alt="">
             <h3>Solução para Lojas de <span>Varejo em Geral</span></h3>
             <p>O UNIPLUS Store faz você ganhar total controle dos processos da sua empresa tornando o atendimento ao
                 cliente mais ágil. A empresa ganha mais produtividade e o cliente um melhor atendimento, tornando seu
@@ -71,13 +75,10 @@
         </div>
 
         <div class="image animate__animated animate__slideInDown">
-            <img src="/images/varejo-bg.png" alt="">
+            <img src="./assets/images/varejo-bg.png" alt="">
         </div>
 
     </section>
-
-    
-
 
     <div class="newsletter">
         <iframe width="720" height="420" src="https://www.youtube.com/embed/YFJsqKT8gcA" title="YouTube video player"
@@ -85,7 +86,6 @@
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
     </div>
-
 
     <section class="pricing" id="pricing">
         <h1 class="heading">UNIPLUS Store</h1>
@@ -115,7 +115,8 @@
                     <li> <i class="fas fa-times"></i> Pedido de Compras </li>
                     <li> <i class="fas fa-times"></i> Registro de Produção </li>
                 </ul>
-                <a href="https://wa.me/5548999916394?text=Olá!%20Tenho%20interesse%20no%20Plano%20Básico%20do%20Sistema%20Uniplus-store!" target="_blank" class="btn">Tenho
+                <a href="https://wa.me/5548999916394?text=Olá!%20Tenho%20interesse%20no%20Plano%20Básico%20do%20Sistema%20Uniplus-store!"
+                    target="_blank" class="btn">Tenho
                     Interesse</a>
             </div>
 
@@ -142,74 +143,60 @@
                     <li> <i class="fas fa-check"></i> Pedido de Compras </li>
                     <li> <i class="fas fa-check"></i> Registro de Produção </li>
                 </ul>
-                <a href="https://wa.me/5548999916394?text=Olá!%20Tenho%20interesse%20no%20Plano%20Avançado%20do%20Sistema%20Uniplus-store!" target="_blank" class="btn">Tenho
+                <a href="https://wa.me/5548999916394?text=Olá!%20Tenho%20interesse%20no%20Plano%20Avançado%20do%20Sistema%20Uniplus-store!"
+                    target="_blank" class="btn">Tenho
                     Interesse</a>
             </div>
         </div>
     </section>
     <section class="segmentos" id="segmentos">
-        <h1 class="heading"> SEGMENTOS </h1>
+        <h1 class="heading"> OUTROS SEGMENTOS </h1>
         <div class="box-container">
-            <div class="box" id="varejo">
-                <img src="/images/controle-total-empresa.png" alt="">
-                <h3>Lojas de Varejo</h3>
-                <p> O UNIPLUS Store, é um sistema de gestão completo
-                    para facilitar e melhorar o serviço de atendimento em lojas de roupas,
-                    calçados, livrarias, papelarias, entre outros tipos de lojas.</p>
-                <a href="#pricing" class="btn">Veja nossos planos</a>
-            </div>
 
             <div class="box" id="mercado">
-                <img src="/images/segmento-mercado.png" alt="">
+                <img src="./assets/images/segmento-mercado.png" alt="">
                 <h3>Mercados e Supermercados</h3>
                 <p>O UNIPLUS Market é um sistema de gestão completo para facilitar e melhorar
                     os processos em mercados, supermercados, açougues e demais estabelecimentos do setor.</p>
-                <a href="uniplus-market.html" class="btn">Veja nossos planos</a>
+                <a href="uniplus-market.html" class="btn">Saiba mais</a>
             </div>
 
             <div class="box" id="servico">
-                <img src="/images/segmento-servico.png" alt="">
+                <img src="./assets/images/segmento-servico.png" alt="">
                 <h3>Prestadores de Serviços</h3>
                 <p>O UNIPLUS Service é um sistema de gestão completo para facilitar e melhorar o atendimento de
                     assistências técnicas, oficinas mecânicas e prestadores de serviço em geral.</p>
-                <a href="uniplus-service.html" class="btn">Veja nossos planos</a>
+                <a href="uniplus-service.html" class="btn">Saiba mais</a>
             </div>
     </section>
 
     <section class="contact" id="contato">
-
         <div class="image">
-            <img src="/images/contact-im3g.png" alt="">
+            <img src="./assets/images/contact-im3g.png" alt="">
         </div>
-
-        <form action="">
-
+        <form action="https://formsubmit.co/contato@fksis.com.br" method="POST" class="form">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/uniplus-store.html">
             <h1 class="heading">Entre em contato</h1>
-
             <div class="inputBox">
-                <input type="text" required>
-                <label>Nome</label>
+                <input type="text" name="name" id="name" required>
+                <label for="name">Nome</label>
             </div>
-
             <div class="inputBox">
-                <input type="email" required>
-                <label>E-mail</label>
+                <input type="email" name="email" id="email" required>
+                <label for="email">E-mail</label>
             </div>
-
             <div class="inputBox">
-                <input type="number" required>
-                <label>Telefone</label>
+                <input type="number" name="number" id="number" required>
+                <label for="number">Telefone</label>
             </div>
-
             <div class="inputBox">
-                <textarea required name="" id="" cols="30" rows="10"></textarea>
-                <label>Mensagem</label>
+                <textarea required name="message" id="message" cols="30" rows="10"></textarea>
+                <label for="message">Mensagem</label>
             </div>
-
             <input type="submit" class="btn" value="enviar mensagem">
-
         </form>
-
     </section>
 
     <!-- contact section ends -->
@@ -222,8 +209,10 @@
 
             <div class="box">
                 <h3>Sobre nós</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet pariatur rerum consectetur architecto
-                    ad tempora blanditiis quo aliquid inventore a.</p>
+                <p>A FKSIS é uma revenda autorizada e certificada do sistema Hiper e Uniplus.
+                    Nós somos especialistas em sistemas de gestão. Usamos a nossa experiência para ajudar sua empresa a
+                    crescer.
+                    Temos mais de 130 clientes implantados em diversos segmentos e lugares do Brasil.</p>
             </div>
 
             <div class="box">
