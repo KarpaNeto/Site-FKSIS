@@ -16,7 +16,7 @@
 <body>
     <header>
         <div class="topnav" id="myTopnav">
-            <a href="index.html" class="logo"><img src="./assets/images/logo-img.jpeg" alt=""><span>FK</span>SIS -
+            <a href="index" class="logo"><img src="./assets/images/logo-img.jpeg" alt=""><span>FK</span>SIS -
                 Sistemas de
                 Gestão</a>
             <div class="nav-container">
@@ -47,7 +47,7 @@
                 <a href="#sobre">Sobre</a>
                 <a href="#contato">Contato</a>
             </div>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+            <a class="burger" onclick="myFunction()">&#9776;</a>
         </div>
     </header>
     <div class="wts-btn">
@@ -62,9 +62,8 @@
                 cada área de atuação.</p>
             <a href="#sistemas" class="btn">conheça nossas soluções</a>
         </div>
-
         <div class="image animate__animated animate__slideInDown">
-            <img src="./assets/images/home-img.png" alt="">
+            <img src="./assets/images/home-img.png" alt="ilustração de um jovem com um notebook">
         </div>
     </section>
 
@@ -72,7 +71,7 @@
         <h1 class="heading"> Sistemas </h1>
         <div class="box-container">
             <div class="box">
-                <img src="./assets/images/f-icon1.png" alt="">
+                <img src="./assets/images/f-icon1.png" alt="logo do sistema Hiper">
                 <h3>Solução Prática e Fácil Para o Seu Negócio.</h3>
                 <p>O Hiper foi desenvolvido para auxiliar o micro e pequeno varejista a gerir melhor o seu negócio. De
                     mercados à lojas de roupas, o sistema é indicado para mais de 30 segmentos.</p>
@@ -82,11 +81,11 @@
                     <li> <i class="fas fa-check"></i> Micro e Pequenas Empresas </li>
                     <li> <i class="fas fa-check"></i> Integração com E-Commerce </li>
                 </ul>
-                <a href="hiper.html" class="btn">Saiba mais</a>
+                <a href="hiper" class="btn">Saiba mais</a>
             </div>
 
             <div class="box">
-                <img src="./assets/images/f-icon2.png" alt="">
+                <img src="./assets/images/f-icon2.png" alt="logo do sistema uniplus">
                 <h3>Use nossas soluções em sua empresa</h3>
                 <p>Tenha total controle sobre a gestão de seus negócios, com recursos e ferramentas específicas para o
                     seu segmento de atuação.
@@ -98,20 +97,11 @@
                     <li> <i class="fas fa-check"></i> Pequenas e Média Empresas </li>
                     <li> <i class="fas fa-check"></i> Versão Web ou Desktop </li>
                 </ul>
-                <a href="uniplus.html" class="btn">Saiba mais</a>
+                <a href="uniplus" class="btn">Saiba mais</a>
             </div>
         </div>
     </section>
 
-    <div class="newsletter">
-        <h3>Inscreva-se para saber mais</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sed aliquam quibusdam neque magni magnam est
-            laborum doloribus, facere dolores.</p>
-        <form action="">
-            <input type="email" placeholder="insira seu email">
-            <input type="submit" value="Subscribe">
-        </form>
-    </div>
 
     <section class="clientes" id="cases">
         <h1 class="heading"> Alguns de Nossos Clientes </h1>
@@ -119,7 +109,7 @@
             <div class="box">
                 <i class="fas fa-quote-right"></i>
                 <div class="user">
-                    <img src="./assets/images/case-malube.png" alt="">
+                    <img src="./assets/images/case-malube.png" alt="logo cliente malube">
                     <h3>Malube Auto Center</h3>
                     <div class="stars">
                         <i class="fas fa-star"></i>
@@ -138,7 +128,7 @@
             <div class="box">
                 <i class="fas fa-quote-right"></i>
                 <div class="user">
-                    <img src="./assets/images/case-extreme-body.png" alt="">
+                    <img src="./assets/images/case-extreme-body.png" alt="logo cliente extreme body">
                     <h3>Extreme Body</h3>
                     <div class="stars">
                         <i class="fas fa-star"></i>
@@ -157,7 +147,7 @@
             <div class="box">
                 <i class="fas fa-quote-right"></i>
                 <div class="user">
-                    <img src="./assets/images/case-couro-e-cores.png" alt="">
+                    <img src="./assets/images/case-couro-e-cores.png" alt="logo cliente couros e cores">
                     <h3>Couros e Cores</h3>
                     <div class="stars">
                         <i class="fas fa-star"></i>
@@ -175,7 +165,7 @@
             <div class="box">
                 <i class="fas fa-quote-right"></i>
                 <div class="user">
-                    <img src="./assets/images/case-refribem.png" alt="">
+                    <img src="./assets/images/case-refribem.png" alt="logo cliente refribem">
                     <h3>Refribem</h3>
                     <div class="stars">
                         <i class="fas fa-star"></i>
@@ -196,7 +186,7 @@
         <h1 class="heading"> Sobre Nós </h1>
         <div class="box-container">
             <div class="box">
-                <img src="./assets/images/logo-img.jpeg" alt="">
+                <img src="./assets/images/logo-img.jpeg" alt="logo da empresa FKSIS">
                 <h3><span>FK</span>SIS - Sistemas de Gestão</h3>
                 <p>A FKSIS é uma revenda autorizada e certificada do sistema Hiper e Uniplus.
                 </p>
@@ -211,12 +201,12 @@
 
     <section class="contact" id="contato">
         <div class="image">
-            <img src="./assets/images/contact-im2g.png" alt="">
+            <img src="./assets/images/contact-im2g.png" alt="ilustração para contato">
         </div>
         <form action="https://formsubmit.co/contato@fksis.com.br" method="POST" class="form">
             <input type="hidden" name="_template" value="table">
             <input type="hidden" name="_captcha" value="false">
-            <input type="hidden" name="_next" value="https://fksis.netlify.app/index.html">
+            <input type="hidden" name="_next" value="https://fksis.netlify.app/index">
             <h1 class="heading">Entre em contato</h1>
             <div class="inputBox">
                 <input type="text" name="name" id="name" required>

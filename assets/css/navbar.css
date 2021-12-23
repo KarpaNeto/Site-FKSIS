@@ -9,7 +9,7 @@
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     padding: 0 5rem 0 5rem;
     z-index: 1;
-    transition: all .3s linear;
+    transition: all .7s ease;
 }
 
 
@@ -31,6 +31,7 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    transition: all .7s ease;
 }
 
 .topnav #dropdown-main-item {
@@ -39,8 +40,9 @@
 }
 
 /* Hide the link that should open and close the topnav on small screens */
-.topnav a.icon {
+.topnav a.burger {
     display: none;
+    transition: all .7s ease;
 }
 
 /* Dropdown container - needed to position the dropdown content */
@@ -60,6 +62,7 @@
     font-family: inherit;
     margin: 0;
     cursor: pointer;
+    transition: all .7s ease;
 }
 
 /* Style the dropdown content (hidden by default) */
@@ -101,7 +104,7 @@
     display: block;
 }
   
-  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.burger) */
 @media screen and (max-width: 768px) {
     .topnav{
         padding: 0;
@@ -116,14 +119,14 @@
     .topnav a:not(:first-child), .dropdown .dropbtn {
       display: none;
     }
-    .topnav a.icon {
+    .topnav a.burger {
       float: right;
       display: block;
       color: var(--azul);
     }
   }
   
-  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the burger. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 768px) {
     .topnav.responsive .logo{
         display: none;
@@ -135,7 +138,7 @@
         position: fixed;
         display: block;
     }
-    .topnav.responsive a.icon {
+    .topnav.responsive a.burger {
       position: absolute;
       right: 0;
       top: 0;
