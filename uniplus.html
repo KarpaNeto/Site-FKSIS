@@ -11,7 +11,17 @@
     <link rel="stylesheet" href="./assets/css/navbar.css">
     <link rel="stylesheet" href="./assets/css/style-planos.css">
     <link rel="stylesheet" href="./assets/css/whats-btn.css">
-    <script src="header.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-104281177-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-104281177-1');
+    </script>
+
+    <script src="./assets/header.js"></script>
 
     <title>Uniplus</title>
 </head>
@@ -162,16 +172,6 @@
                 <a href="uniplus-service.html" class="btn">Saiba mais</a>
             </div>
     </section>
-    <div class="newsletter">
-
-        <h3>Inscreva-se para saber mais</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sed aliquam quibusdam neque magni magnam est
-            laborum doloribus, facere dolores.</p>
-        <form action="">
-            <input type="email" placeholder="insira seu email">
-            <input type="submit" value="Inscreva-se">
-        </form>
-    </div>
 
     <section class="contact" id="contato">
         <div class="image">
@@ -180,7 +180,7 @@
         <form action="https://formsubmit.co/contato@fksis.com.br" method="POST" class="form">
             <input type="hidden" name="_template" value="table">
             <input type="hidden" name="_captcha" value="false">
-            <input type="hidden" name="_next" value="https://fksis.netlify.app/uniplus.html">
+            <input type="hidden" name="_next" value="https://www.fksis.com.br/contato.html">
             <h1 class="heading">Entre em contato</h1>
             <div class="inputBox">
                 <input type="text" name="name" id="name" required>
